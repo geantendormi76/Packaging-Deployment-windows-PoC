@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+.venv_win/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files
+.idea/
+.vscode/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+
+mini_service_payload/
+# Local data files (if any, besides the ones we intend to track for PoC)
+# packaging_test_data/ # 如果不希望跟踪这个临时数据库目录
+# *.db # 如果有其他不想跟踪的数据库文件
+# *.log # 日志文件
+
+# Sensitive or large files not intended for repo
+# (根据实际情况添加)

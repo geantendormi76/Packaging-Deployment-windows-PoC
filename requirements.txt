@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+duckdb
+sentence-transformers
+torch
+torchvision
+# llama-cpp-python 的安装在 Windows 上可能需要特殊处理，我们先列出来
+# 如果直接 pip install 失败，需要参考其官方文档进行 C++ build tools 的配置
+llama-cpp-python
+python-dotenv
+pyinstaller
